@@ -1,4 +1,3 @@
-
 numbers = File.read(File.join(File.dirname(__FILE__), "input.txt")).lines.map(&:to_i)
 curr = 0
 jumps = 0
