@@ -1,5 +1,5 @@
 input = File.read(File.join(File.dirname(__FILE__), "input.txt"))
-# input = File.read(File.join(File.dirname(__FILE__), "input2.txt"))
+input = File.read(File.join(File.dirname(__FILE__), "input2.txt"))
 # input = File.read(File.join(File.dirname(__FILE__), "input_sample2.txt"))
 
 raw_rules, raw_messages = input.split(/^$/)
